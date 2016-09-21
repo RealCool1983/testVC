@@ -1,0 +1,6 @@
+; DLLL_TEST.def : Declares the module parameters for the DLL.
+
+LIBRARY      "DLLL_TEST"
+
+EXPORTS
+    ; Explicit exports can go here

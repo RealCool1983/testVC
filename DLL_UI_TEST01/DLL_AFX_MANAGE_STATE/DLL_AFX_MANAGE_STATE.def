@@ -1,0 +1,6 @@
+; DLL_AFX_MANAGE_STATE.def : Declares the module parameters for the DLL.
+
+LIBRARY      "DLL_AFX_MANAGE_STATE"
+
+EXPORTS
+    ; Explicit exports can go here

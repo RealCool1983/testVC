@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL_UI_TEST01", "DLL_UI_TEST01\DLL_UI_TEST01.vcproj", "{A945BA1A-1107-45E1-A2F0-E67F394DCF3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL_UI_TEST_UIPART", "DLL_UI_TEST_UIPART\DLL_UI_TEST_UIPART.vcproj", "{691CF3A5-D72B-4EC9-AF93-0E45BF830E04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL_AFX_MANAGE_STATE", "DLL_AFX_MANAGE_STATE\DLL_AFX_MANAGE_STATE.vcproj", "{C1E8ED7A-6F0C-4DA2-82A9-8ED2E8C628DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A945BA1A-1107-45E1-A2F0-E67F394DCF3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A945BA1A-1107-45E1-A2F0-E67F394DCF3D}.Debug|Win32.Build.0 = Debug|Win32
+		{A945BA1A-1107-45E1-A2F0-E67F394DCF3D}.Release|Win32.ActiveCfg = Release|Win32
+		{A945BA1A-1107-45E1-A2F0-E67F394DCF3D}.Release|Win32.Build.0 = Release|Win32
+		{691CF3A5-D72B-4EC9-AF93-0E45BF830E04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{691CF3A5-D72B-4EC9-AF93-0E45BF830E04}.Debug|Win32.Build.0 = Debug|Win32
+		{691CF3A5-D72B-4EC9-AF93-0E45BF830E04}.Release|Win32.ActiveCfg = Release|Win32
+		{691CF3A5-D72B-4EC9-AF93-0E45BF830E04}.Release|Win32.Build.0 = Release|Win32
+		{C1E8ED7A-6F0C-4DA2-82A9-8ED2E8C628DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1E8ED7A-6F0C-4DA2-82A9-8ED2E8C628DA}.Debug|Win32.Build.0 = Debug|Win32
+		{C1E8ED7A-6F0C-4DA2-82A9-8ED2E8C628DA}.Release|Win32.ActiveCfg = Release|Win32
+		{C1E8ED7A-6F0C-4DA2-82A9-8ED2E8C628DA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

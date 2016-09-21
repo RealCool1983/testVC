@@ -1,0 +1,4 @@
+LIBRARY	"DLL_UI_TEST01"
+
+EXPORTS 
+getValue @1

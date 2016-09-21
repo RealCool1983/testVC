@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL_UI_TEST", "DLL_UI_TEST\DLL_UI_TEST.vcproj", "{F7FB0A45-D7B7-4D42-8A52-0AADBC675A67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL_TEST", "DLL_TEST\DLL_TEST.vcproj", "{BCA4FE7B-2833-493C-B952-992D41891044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7FB0A45-D7B7-4D42-8A52-0AADBC675A67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7FB0A45-D7B7-4D42-8A52-0AADBC675A67}.Debug|Win32.Build.0 = Debug|Win32
+		{F7FB0A45-D7B7-4D42-8A52-0AADBC675A67}.Release|Win32.ActiveCfg = Release|Win32
+		{F7FB0A45-D7B7-4D42-8A52-0AADBC675A67}.Release|Win32.Build.0 = Release|Win32
+		{BCA4FE7B-2833-493C-B952-992D41891044}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BCA4FE7B-2833-493C-B952-992D41891044}.Debug|Win32.Build.0 = Debug|Win32
+		{BCA4FE7B-2833-493C-B952-992D41891044}.Release|Win32.ActiveCfg = Release|Win32
+		{BCA4FE7B-2833-493C-B952-992D41891044}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

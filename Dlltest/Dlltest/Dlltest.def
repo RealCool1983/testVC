@@ -1,0 +1,6 @@
+; Dlltest.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Dlltest"
+
+EXPORTS
+    ; Explicit exports can go here

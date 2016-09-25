@@ -5,6 +5,9 @@
 //#include "Main.h" 
 #include <windows.h>
 #include "..\DLL_UI_TEST01\main.h"
+#include "winAPI.h"
+#include "conversionCollect.h"
+
 
 int vloadUIDLL(){
 
@@ -57,11 +60,44 @@ int vloadDLL(){
     // Unload DLL file  
     FreeLibrary(hinstLib);  
 }
+
+void winapi_getsystetime()
+{
+	CwinAPI cwin ;
+	cwin.getSystemTime();
+}
+
+void winapi_getExePath()
+{
+	CwinAPI cwin ;
+	cwin.getExePath();
+}
+
+void winapi_GetCurrentWeek()
+{
+	CwinAPI cwin ;
+	cwin.GetCurrentWeek();
+}
+
+
+void conversionCollect_conver_sprintf_s()
+{
+	CconversionCollect cconversion;
+	cconversion.conver_sprintf_s();
+	//cconversion
+}
+
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	
-	//vloadUIDLL();
-	vloadDLL();
+	//vloadUIDLL(); //verify ok
+	//vloadDLL(); // verify ok
+	//winapi_getsystetime(); // verify ok 
+	//winapi_getExePath(); // verify ok
+	//conversionCollect_conver_sprintf_s(); // verify ok
+	winapi_GetCurrentWeek();
+
     system("pause");  
 	return 0;
 }

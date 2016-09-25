@@ -41,6 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories="$(ProjectDir)..\New_comdriver\"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -61,6 +62,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
+				ModuleDefinitionFile=""
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -171,6 +173,14 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\andoridCollect.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\conversionCollect.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\DLL_UI_TEST_UIPART.cpp"
 				>
 			</File>
@@ -194,6 +204,10 @@
 					/>
 				</FileConfiguration>
 			</File>
+			<File
+				RelativePath=".\winAPI.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -201,11 +215,23 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
+				RelativePath=".\andoridCollect.h"
+				>
+			</File>
+			<File
+				RelativePath=".\conversionCollect.h"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.h"
 				>
 			</File>
 			<File
 				RelativePath=".\targetver.h"
+				>
+			</File>
+			<File
+				RelativePath=".\winAPI.h"
 				>
 			</File>
 		</Filter>
